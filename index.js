@@ -1,3 +1,6 @@
+const getPosts = async () =>{
+    await fetchPosts()
+}
 function displayPost(posts) {
     const postList = document.getElementById("post-list");
     if (!postList) return;
@@ -33,6 +36,6 @@ displayPost(posts)
 }
 
 //Initiliaze the fetch process
-getPosts()
+fetchPosts()
     
    
